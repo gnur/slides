@@ -97,6 +97,7 @@ $ chezmoi init git@github.com:gnur/dotfiles.git
 - zellij
 - byobu
 - terminal emulator itself
+- wezterm
 
 
 [comment]: # (I'm using tmux here, I've added some stuff, show resizing panes with mouse, floating window)
@@ -271,8 +272,22 @@ There has been a lot of progress in this field:
 - lsp
 - treesitter
 
+[comment]: # (edit a setuprouter file, show gd, <space>k)
+
 ---
 
+And to make this whole presentation even more relevant to KCD:
+
+```
+~~~figlet
+k9s
+~~~
+```
+
+
+[comment]: # (open k9s, show pod logs, describe deployment)
+
+---
 
 # summary
 
