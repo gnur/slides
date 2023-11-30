@@ -1,0 +1,19 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0vglS0K
+    server: https://uranus:6443
+  name: clustera
+contexts:
+- context:
+    cluster: clustera
+    user: default
+  name: clustera
+current-context: clustera
+kind: Config
+preferences: {}
+users:
+- name: default
+  user:
+    client-certificate-data: LS0tLS1CR=
+    client-key-data: LS0tLS1CRUdJTiBFQLQo=

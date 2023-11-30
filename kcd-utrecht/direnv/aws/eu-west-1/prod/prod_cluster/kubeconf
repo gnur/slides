@@ -1,0 +1,19 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: aHR0cHM6Ly9yci5menpienouZGV2
+    server: https://rr.fzzbzz.dev/kcd
+  name: prod_cluster
+contexts:
+- context:
+    cluster: prod_cluster
+    user: default
+  name: prod_cluster
+current-context: prod_cluster
+kind: Config
+preferences: {}
+users:
+- name: default
+  user:
+    client-certificate-data: aHR0cHM6Ly9yci5menpienouZGV2
+    client-key-data: aHR0cHM6Ly9yci5menpienouZGV2
