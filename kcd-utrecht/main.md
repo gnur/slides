@@ -5,10 +5,15 @@ paging: "%d / %d"
 theme: ./theme.json
 ---
 
+# This is NOT: Socio-technical challenges of adopting Kubernetes
+
+Sorry, Giuseppe couldn't make it today.
+
+---
+
 # Using the CLI for fun and profit
 
 ## Or, how to shave your yak
-
 
 
 About me:
@@ -20,6 +25,7 @@ About me:
 
 [comment]: # (change font size, float tmux, vif wezterm, edit/save for live reload)
 [comment]: # (everything you see should get explained)
+[comment]: # (I learned that I should not intro myself, let's remove it)
 
 ---
 # living the CLI life
@@ -32,6 +38,24 @@ About me:
   - devpod
   - devcontainer
 - looks cool
+
+---
+# slides at kcd
+
+[slides](https://github.com/maaslalani/slides)
+
+## Code execution
+```go
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("Hellow KCD Utrecht!")
+}
+```
+
+### output:
 
 
 ---
@@ -272,6 +296,7 @@ There has been a lot of progress in this field:
 - lsp
 - treesitter
 
+[comment]: # (also mention how you need extra config & plugins to make nvim work)
 [comment]: # (edit a setuprouter file, show gd, <space>k)
 
 ---
